@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.8rem;
+    margin: 0 15% 0 15%;
+}
+
+.header {
+    grid-column: span 12;
+    justify-self: center;
+}
+
+.full-width {
+    grid-column: span 12;
+    display: flex;
+    justify-content: center; 
+}
+
+.half-width {
+    grid-column: span 12;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.img-responsive {
+    max-width: 100%; 
+    height: auto;
+}
+
+.textbox {
+    padding: 20px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
